@@ -1,7 +1,6 @@
 # Data Structures
-
--- BinaryTree
--- LinkedList
--- Queue
--- Stack
+  - BinaryTree
+  - LinkedList
+  - Queue
+  - Stack
 
