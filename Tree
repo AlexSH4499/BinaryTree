@@ -1,0 +1,28 @@
+Class Node:
+  children = []
+  data = None
+  
+  def __init__(self,data=None,children=[]):
+      self.data=data
+      self.children=children
+  def children(self):
+      return self.children
+  def data(self):
+      return self.data
+      
+  def add_children(self, children=[]):
+      for c in children:
+          self.children.append(c)
+      
+Class Tree:
+    root = Node()
+    size = 0
+    
+    def __init__(self, node=Node()):
+        self.root=node
+    
+    def size(self):
+        return self.size
+    
+    def is_empty(self):
+        return self.size() == 0
