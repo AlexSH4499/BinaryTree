@@ -1,2 +1,7 @@
-# BinaryTree
-Implementation of  a BinaryTree in Python3
+# Data Structures
+
+-- BinaryTree
+-- LinkedList
+-- Queue
+-- Stack
+
